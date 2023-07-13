@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.cookie-container {
+    background: linear-gradient(260deg,#9b6c50 0%, #4f2626 100%);
+position: absolute;
+top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    WIDTH: 250px;
+    height: 200px;
+    border-radius: 60px;
+    padding-top: 20px;
+    padding-left: 30px; /* basically bordres all around lol*/;
+    font-family: "Ubuntu", sans-serif;
+overflow: hidden; /*sema if an element moves outta the container it disappears*/
+}
+
+.cookieall{
+padding-right: 2rem;
+}
+
+.text{
+    color: white;
+}
+
+.cookie-title{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.cookie-subtitle {
+    font-weight: regular;
+    font-size: 0.7 rem;
+    padding: 0px 0px 10px 0px;
+}
+
+
+button{
+    border-style: none;
+    width: 90px;
+    height: 30px;
+    padding: 0.5rem 1 rem;
+    color: #9b6c50;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 010px;;
+}
